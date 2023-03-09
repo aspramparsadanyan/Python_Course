@@ -1,0 +1,5 @@
+1․What is a programming languages?
+2․What is the Python programming language and what is the idea behind it?
+3․Course structure and end result
+4․Working environment setup/ Python/ VScode
+
