@@ -1,4 +1,0 @@
-1.What is git
-2.How to install git
-3. WHat is github
-4. How to make github repo
