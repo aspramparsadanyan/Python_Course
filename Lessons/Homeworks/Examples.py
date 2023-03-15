@@ -70,7 +70,9 @@ def f(s):
  
  
 
-
+input = 45
+sum = (input % 10)+(input // 10) == 9
+print(input // 10)
 
 
 

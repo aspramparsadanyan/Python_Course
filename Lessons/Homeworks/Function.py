@@ -1,5 +1,4 @@
 def even_or_odd(num):
-    num = 12
     if num % 2 == 0:
         return "even"
     else:
