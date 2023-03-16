@@ -74,5 +74,11 @@ input = 45
 sum = (input % 10)+(input // 10) == 9
 print(input // 10)
 
-
-
+def find_bigest_number(num1,num2,num3):
+    if num1 > num2 and num1 > num3:
+        return num1
+    if num1<num2 and num2>num3:
+        return num2
+    if num1<num3 and num2< num3:
+       return num3
+print(find_bigest_number(7, 201, 42))
