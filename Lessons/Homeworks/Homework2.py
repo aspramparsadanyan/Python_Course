@@ -9,7 +9,7 @@
 
 name = input("Please enter yor name>")
 text= (name == "Mutabish") * "Hello my love!" or ("Hello"+" " + name+ "!")
-print(text)
+
 
 # "2. Create a function that takes two arguments. Both arguments are integers, a and b. Return True if one of them is 10 or if their sum is 10.
 # Examples
@@ -23,11 +23,9 @@ def make_number(a, b):
     return False
 
 example= make_number(1, 9)
-print(example)
 
 a,b = 2,9
 text=((a+b== 10) or (b == 10) or (a==10)) * "True" or "False"
-print(text)
 
 # 3 " Create a function that returns True if an integer is evenly divisible by 5, and False otherwise.
 # Examples
@@ -38,7 +36,6 @@ print(text)
 x=78
 y= x % 5 
 text= ("Thrue" * (y == 0)) or "False" 
-print(text)
 
 # "4. Extra Knowledge 
 # Create a function that takes two strings as arguments and return either True or False depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
@@ -50,15 +47,12 @@ print(text)
 x= "AB"
 y= "CD"
 text= (len(x) == len(y)) * "True" or "False"
-print(text)
 
 # "5. Given a string, return True if its length is even or False if the length is odd."
 
 x= "ABCD"
 y= (len(x) % 2)
 text=(y==0) * "Zuyg"  or "Kent" 
-print(text)
-
 # "6. Create a function that takes a string txt and a number n and returns the repeated string n number of times.
 # If given argument txt is not a string, return Not A String !!
 # Examples
@@ -68,7 +62,7 @@ print(text)
 
 name, repeat= "Mubashir", 3
 text= ((type(name) != str) * "Not a String") or  (name * repeat)
-print(text)
+
 
 
 
