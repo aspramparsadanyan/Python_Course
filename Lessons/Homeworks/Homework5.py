@@ -22,7 +22,7 @@
 
 # a,b,c = (0, 0, 0)
 # rgb_const= 255
-# inverted_tuple= abs(255-a), abs(255-b), abs(c-255)
+# inverted_tuple= abs(rgb_const-a), abs(rgb_const-b), abs(c-rgb_const)
 # print(inverted_tuple)
 
 
