@@ -5,9 +5,9 @@
 # # # [6, 5, 8, 9, 7] ➞ [7, 6, 5, 8, 9]
 # # # [20, 15, 26, 8, 4] ➞ [4, 20, 15, 26, 8]"""
 
-# # list=[20, 15, 26, 8, 4]
-# # rotated_list = list[-1:] + list[:-1]
-# # print(rotated_list)
+list=[20, 15, 26, 8, 4]
+rotated_list = list[-1:] + list[:-1]
+
 
 # # # """2. Create a function that inverts the rgb values of a given tuple.
 # # # Examples
@@ -20,10 +20,10 @@
 # # # Must return a tuple.
 # # # 255 is the max value of a single color channel."""
 
-# a,b,c = (0, 0, 0)
-# rgb_const= 255
-# inverted_tuple= abs(rgb_const-a), abs(rgb_const-b), abs(c-rgb_const)
-# print(inverted_tuple)
+a,b,c = (0, 0, 0)
+rgb_const= 255
+inverted_tuple= abs(rgb_const-a), abs(rgb_const-b), abs(c-rgb_const)
+
 
 
 # # 3. Write a function that searches a list of names (unsorted) for the name "Bob" and returns the location in the list. If Bob is not in the list, return -1.
@@ -34,13 +34,13 @@
 # # Notes
 # # Assume all names start with a capital letter and are lowercase thereafter (i.e. don't worry about finding "BOB" or "bob").
 
-# # my_list = ["Jimmy", "Layla", "James"]
-# # name = "Bob"
-# # if name in my_list:
-# #     index = my_list.index(name)
-# # else:
-# #     index = -1
-# # print(index)
+my_list = ["Jimmy", "Layla", "James"]
+name = "Bob"
+if name in my_list:
+    index = my_list.index(name)
+else:
+    index = -1
+
 
 
 
@@ -53,10 +53,10 @@
 # # unique_sort([1, 4, 4, 4, 4, 4, 3, 2, 1, 2]) ➞ [1, 2, 3, 4]
 # # unique_sort([6, 7, 3, 2, 1]) ➞ [1, 2, 3, 6, 7]
 # # EXTRA Knowledge
-# # numbers= [1, 4, 4, 4, 4, 4, 3, 2, 1, 2]
-# # unique_numbers = set(numbers)
-# # sorted_numbers = sorted(unique_numbers)
-# # print(sorted_numbers)
+numbers= [1, 4, 4, 4, 4, 4, 3, 2, 1, 2]
+unique_numbers = set(numbers)
+sorted_numbers = sorted(unique_numbers)
+
 
 # # 5. Given two strings, create a function that returns the total number of unique characters from the combined string.
 # # Examples
@@ -66,10 +66,10 @@
 # # "sore", "zebra" ➞ 7
 # # "a", "soup" ➞ 5
 
-# # a, b = "apple", "play"
-# # new_string= a+b
-# # chars = len(set(new_string))
-# # print(chars)
+a, b = "apple", "play"
+new_string= a+b
+chars = len(set(new_string))
+
 
 # # 6. Create a function that takes a dictionary of student names and returns a list of student names in alphabetical order.
 # # Examples
@@ -79,10 +79,8 @@
 # #   "Student 3" : "John"
 # # } ➞ ["Becky", "John", "Steve"]
 
-# # students = {"Student 1": "Ani", "Student 2": "Beck", "Student 3": "Luis"}
-# # sorted_names = sorted(students.values())
-# # print(sorted_names)
-
+students = {"Student 1": "Ani", "Student 2": "Beck", "Student 3": "Luis"}
+sorted_names = sorted(students.values())
 
 
 # # 7. Create a function that returns a list of strings sorted by length in ascending order.
@@ -94,10 +92,8 @@
 # # Notes
 # # Strings will have unique lengths, so don't worry about comparing two strings with identical length.
 # # Return an empty array if the input array is empty
-# # strings = ["may", "april", "september", "august"]
-# # sorted_strings = sorted(strings, key= len )
-# # print(sorted_strings)
-
+strings = ["may", "april", "september", "august"]
+sorted_strings = sorted(strings, key= len )
 
 
 # # 8. Write a function that converts a dictionary into a list of keys-values tuples.
@@ -113,9 +109,9 @@
 # #   "followers": 10
 # # }) ➞ [("dislikes", 3), ("followers", 10), ("likes", 2)]
 
-# dictionary = {'Likes': '2', 'Dislike': '3','Followers': '10'}
-# tuples_list = (dictionary.items())
-# print(tuples_list)
+dictionary = {'Likes': '2', 'Dislike': '3','Followers': '10'}
+tuples_list = (dictionary.items())
+
 
 
 
@@ -130,19 +126,19 @@
 # #             }
 # #         }
 # #     }
-# Dict = {
-#     "class": {
-#         "student": {
-#             "name": "Mike",
-#             "marks": {
-#                 "physics": 70,
-#                 "history": 80
-#             }
-#         }
-#     }
-# }
+Dict = {
+    "class": {
+        "student": {
+            "name": "Mike",
+            "marks": {
+                "physics": 70,
+                "history": 80
+            }
+        }
+    }
+}
 
-# print(Dict['class']['student']['marks']['history'])
+print(Dict['class']['student']['marks']['history'])
 
 
 # # 10. Rename key of a dictionary
@@ -157,13 +153,11 @@
 # # Expected output:
 # # {'name': 'Kelly', 'age': 25, 'salary': 8000, 'location': 'New york'}
 
-# dict = {
-#   "name": "Kelly",
-#   "age":25,
-#   "salary": 8000,
-#   "city": "New york"
-# }
+dict = {
+  "name": "Kelly",
+  "age":25,
+  "salary": 8000,
+  "city": "New york"
+}
 
-# dict["location"] = dict.pop("city")
-
-# print(dict)
+dict["location"] = dict.pop("city")
