@@ -233,8 +233,3 @@
 #  else: return "Input correct operation"
 # print(arithmetic_operation("15 // 0"))
 
-
-list= [1,2,4,5]
-new_l
-for x in list:
-    print((x*x))

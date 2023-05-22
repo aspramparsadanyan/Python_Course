@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 # 1. Create a function which returns the number of true values there are in an array.
 # Examples
 # countTrue([true, false, false, true, false]) ➞ 2
